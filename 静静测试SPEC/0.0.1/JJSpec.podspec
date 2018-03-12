@@ -16,7 +16,7 @@ JJSpec描述
   s.author             = { "Iris" => "leejing397@gmail.com" } #作者
   s.platform     = :ios, "8.0" #支持的系统
 
-  s.source       = { :git => "https://github.com/leejing397/Cocoapod-JJTestSpec.git", :tag => "#{s.version}" } #源码地址
+  s.source       = { :git => "https://github.com/leejing397/Cocoapod-JJTestSpec.git", :tag => "0.0.1" } #源码地址
 
 
   s.source_files  = "Classes", "Classes/**/*.{h,m}"

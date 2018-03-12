@@ -1,0 +1,2 @@
+# Cocoapod-JJTestSpec
+Cocoapods从安装使用到创建自己的podspec

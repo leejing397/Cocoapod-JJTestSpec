@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.5"  #版本号
   s.summary      = "JJSpec描述" #描述
   s.description  = <<-DESC
-JJSpec描述wew0.0.5
+   静静最调皮
                    DESC
 
   s.homepage     = "https://github.com/leejing397/Cocoapod-JJTestSpec/" #描述页面

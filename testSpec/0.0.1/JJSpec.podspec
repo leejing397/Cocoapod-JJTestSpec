@@ -19,7 +19,7 @@ JJSpec描述
   s.source       = { :git => "https://github.com/leejing397/Cocoapod-JJTestSpec.git", :tag => "0.0.1"}   
 
 
-  s.source_files  = "GetSimilarity/*.{h,m}" #源码地址
+  s.source_files  = "GetSimilarity/Classes/*.{h,m}" #源码地址
   # s.exclude_files = "Classes/Exclude"
 
   #s.public_header_files = "GetSimilarity/*.h"

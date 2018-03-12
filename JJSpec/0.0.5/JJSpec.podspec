@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
   s.name         = "JJSpec" #名称
   s.version      = "0.0.5"  #版本号
-  s.summary      = "JJSpec描述" #描述
+  s.summary      = "静静最调皮" #描述
   s.description  = <<-DESC
    静静最调皮
                    DESC

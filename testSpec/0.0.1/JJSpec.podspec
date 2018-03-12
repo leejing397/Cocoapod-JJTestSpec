@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "JJSpec" #名称
-  s.version      = "0.0.3"  #版本号
+  s.version      = "0.0.4"  #版本号
   s.summary      = "JJSpec描述" #描述
   s.description  = <<-DESC
 JJSpec描述wew
@@ -16,7 +16,7 @@ JJSpec描述wew
   s.author       = { "Iris" => "leejing397@gmail.com" } #作者
   s.platform     = :ios, "8.0" #支持的系统
 
-  s.source       = { :git => "https://github.com/leejing397/Cocoapod-JJTestSpec.git", :tag => "0.0.3"}   
+  s.source       = { :git => "https://github.com/leejing397/Cocoapod-JJTestSpec.git", :tag => "0.0.4"}   
 
 
   s.source_files  = "testSpec/GetSimilarity/GetSimilarity/Classes/*.{h,m}" #源码地址

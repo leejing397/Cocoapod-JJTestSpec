@@ -19,8 +19,8 @@ JJSpec描述
   s.source       = { :git => "https://github.com/leejing397/Cocoapod-JJTestSpec.git", :tag => "0.0.1" } #源码地址
 
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "0.0.1/*.h"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 

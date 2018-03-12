@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 JJSpec描述
                    DESC
 
-  s.homepage     = "http://EXAMPLE/JJSpec" #描述页面
+  s.homepage     = "https://github.com/leejing397/Cocoapod-JJTestSpec/" #描述页面
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +39,7 @@ JJSpec描述
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)" #版权声明
+  s.license      = "MIT" #版权声明
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -65,7 +65,7 @@ JJSpec描述
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0" #支持的系统
+  # s.platform     = :ios, "8.0" #支持的系统
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -80,7 +80,7 @@ JJSpec描述
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/JJSpec.git", :tag => "#{s.version}" } #源码地址
+  s.source       = { :git => "git@github.com:leejing397/Cocoapod-JJTestSpec.git", :tag => "#{s.version}" } #源码地址
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

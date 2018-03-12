@@ -16,10 +16,10 @@ JJSpec描述
   s.author             = { "Iris" => "leejing397@gmail.com" } #作者
   s.platform     = :ios, "8.0" #支持的系统
 
-  s.source       = { :git => "https://github.com/leejing397/Cocoapod-JJTestSpec.git", :tag => "0.0.1" ,:commit => "088ac5b5a972efd11b9f43826c19807bbe238000" }   
+  s.source       = { :git => "https://github.com/leejing397/Cocoapod-JJTestSpec.git", :tag => "0.0.1"}   
 
 
-  s.source_files  = "0.0.1"#源码地址
+  s.source_files  = "0.0.1/*.h" #源码地址
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

@@ -13,7 +13,7 @@
 		FF09B3372056BFD700D04B28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF09B3362056BFD700D04B28 /* Assets.xcassets */; };
 		FF09B33A2056BFD700D04B28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF09B3382056BFD700D04B28 /* LaunchScreen.storyboard */; };
 		FF09B33D2056BFD700D04B28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF09B33C2056BFD700D04B28 /* main.m */; };
-		FF09B3482056C02200D04B28 /* GetSimilarity.m in Sources */ = {isa = PBXBuildFile; fileRef = FF09B3472056C02200D04B28 /* GetSimilarity.m */; };
+		FF09B34C2056C2A200D04B28 /* GetSimilarity.m in Sources */ = {isa = PBXBuildFile; fileRef = FF09B34B2056C2A200D04B28 /* GetSimilarity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		FF09B3392056BFD700D04B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF09B33B2056BFD700D04B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF09B33C2056BFD700D04B28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FF09B3462056C02200D04B28 /* GetSimilarity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetSimilarity.h; sourceTree = "<group>"; };
-		FF09B3472056C02200D04B28 /* GetSimilarity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetSimilarity.m; sourceTree = "<group>"; };
+		FF09B34A2056C2A200D04B28 /* GetSimilarity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetSimilarity.h; sourceTree = "<group>"; };
+		FF09B34B2056C2A200D04B28 /* GetSimilarity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetSimilarity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +61,11 @@
 		FF09B32C2056BFD700D04B28 /* GetSimilarity */ = {
 			isa = PBXGroup;
 			children = (
+				FF09B3492056C2A200D04B28 /* Classes */,
 				FF09B32D2056BFD700D04B28 /* AppDelegate.h */,
 				FF09B32E2056BFD700D04B28 /* AppDelegate.m */,
 				FF09B3302056BFD700D04B28 /* ViewController.h */,
 				FF09B3312056BFD700D04B28 /* ViewController.m */,
-				FF09B3462056C02200D04B28 /* GetSimilarity.h */,
-				FF09B3472056C02200D04B28 /* GetSimilarity.m */,
 				FF09B3332056BFD700D04B28 /* Main.storyboard */,
 				FF09B3362056BFD700D04B28 /* Assets.xcassets */,
 				FF09B3382056BFD700D04B28 /* LaunchScreen.storyboard */,
@@ -74,6 +73,15 @@
 				FF09B33C2056BFD700D04B28 /* main.m */,
 			);
 			path = GetSimilarity;
+			sourceTree = "<group>";
+		};
+		FF09B3492056C2A200D04B28 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF09B34A2056C2A200D04B28 /* GetSimilarity.h */,
+				FF09B34B2056C2A200D04B28 /* GetSimilarity.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF09B3482056C02200D04B28 /* GetSimilarity.m in Sources */,
 				FF09B3322056BFD700D04B28 /* ViewController.m in Sources */,
+				FF09B34C2056C2A200D04B28 /* GetSimilarity.m in Sources */,
 				FF09B33D2056BFD700D04B28 /* main.m in Sources */,
 				FF09B32F2056BFD700D04B28 /* AppDelegate.m in Sources */,
 			);

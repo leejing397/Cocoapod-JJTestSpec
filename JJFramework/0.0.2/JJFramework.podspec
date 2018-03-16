@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author = {"iris" => "leejing397@gmail.com"}
   s.platform = :ios, "8.0"
 
-  s.source = { :http => "https://jjframework.oss-cn-beijing.aliyuncs.com/JJTestFramework.zip", :sha1 => "32f52bb25acfbfe875ed605efa157a44069034ae" }
+  s.source = { :https => "https://jjframework.oss-cn-beijing.aliyuncs.com/JJTestFramework.zip", :sha1 => "32f52bb25acfbfe875ed605efa157a44069034ae" }
   s.vendored_frameworks = "JJTestFramework/frameworkTest.framework"
   s.frameworks = "UIKit", "CoreLocation"
   s.libraries = "c++", "stdc++", "stdc++.6", "z", "sqlite3", "iconv", "resolv", "protobuf"
